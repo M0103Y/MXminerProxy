@@ -387,62 +387,7 @@ e9pro完美优化, 且rust内可计算出与矿池一致的算力
 
 <span id="dingzhi"></span>
 
-# 定制专属版本说明
 
-1. 加入聊天群组 <a href="https://t.me/rustkt">https://t.me/rustkt</a>
-2. 请整理以下格式数据发给群主或管理员：
-
-示例：
-
-软件名称
-
-项目地址
-
-logo及简介
-
-—————————————————
-
-币种: BTC,
-
-内置手续费比例: 百分之1
-
-内置匿名钱包： xxxxxxxxxxxxxx
-
-内置子账号: xxxxxxxxxxxx
-
-矿池内显示设备名称: xxxxx
-
-—————————————————
-
-币种: ETC
-
-内置手续费比例: 百分之1
-
-内置匿名钱包： xxxxxxxxxxxxxx
-
-内置子账号: xxxxxxxxxxxx
-
-矿池内显示设备名称: xxxxx
-
-—————————————————
-
-币种: ETC+ZIL
-
-内置手续费比例: 百分之1
-
-内置匿名钱包： etc匿名钱包.zil匿名钱包
-
-内置子账号: xxxxxxxxxxxx
-
-矿池内显示设备名称: xxxxx
-
-—————————————————
-
-......
-
-内置手续费矿池地址默认与软件内目标地址一致, 手续费会抽至端口的目标矿池地址,  每个币种需要提供一个匿名钱包和一个子账号,  类似BTC这种不支持匿名挖矿的矿池, 只提供子账号即可, 以确保在任意支持类型的矿池中可以正常工作
-
-如果不会自己制作安装链接，项目首页等，可联系群主或管理员进行免费托管服务
 
 <span id="e9"></span>
 
@@ -456,11 +401,6 @@ logo及简介
 
 例如antpool或poolin, 会统计每台设备的掉线情况, 如果不想在矿池内看到这些信息, 请编辑端口, 找到算力补偿, 选择第二个模式即可
 
-# 端口导入、导出
-
-三种方式可以进行端口的导入导出, 此处仅强调EXCEL文件导入, 如需使用Excel导入, 请下载并参照Excel模板文件:
-
-<a href="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/excel%E7%AB%AF%E5%8F%A3%E5%AF%BC%E5%85%A5%E6%A8%A1%E6%9D%BF.xlsx">下载Excel模板</a>
 
 # Other issues
 
