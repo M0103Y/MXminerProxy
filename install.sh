@@ -1,13 +1,13 @@
 #!/bin/bash
 
 VERSION="3.2.3"
-DOWNLOAD_HOST="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/linux"
-ORIGIN_EXEC="rustminersystem-${VERSION}"
+DOWNLOAD_HOST="https://github.com/EvilGenius-dot/dfc/raw/main/linux"
+ORIGIN_EXEC="dfc-${VERSION}"
 
 SERVICE_NAME="rustservice"
 
-PATH_RUST="/root/rustminersystem"
-PATH_EXEC="rustminersystem"
+PATH_RUST="/root/dfc"
+PATH_EXEC="dfc"
 
 PATH_CONFIG="${PATH_RUST}/rust-config"
 PATH_NOHUP="${PATH_RUST}/nohup.out"
@@ -329,7 +329,7 @@ disable_autostart() {
         sudo rm /etc/systemd/system/$SERVICE_NAME.service
         sudo systemctl daemon-reload
     else # 系统使用的是SysVinit
-        sudo sed -i '/\/root\/rustminersystem\/rustminersystem\ &/d' /etc/rc.local
+        sudo sed -i '/\/root\/dfc\/dfc\ &/d' /etc/rc.local
     fi
 
     sleep 1
@@ -488,7 +488,7 @@ change_limit() {
 installapp() {
     if [ -n "$1" ]; then
         VERSION="$1"
-        ORIGIN_EXEC="rustminersystem-${1}"
+        ORIGIN_EXEC="dfc-${1}"
     fi
 
     echo $ORIGIN_EXEC
