@@ -1,13 +1,13 @@
 #!/bin/bash
 
-VERSION="3.2.3"
-DOWNLOAD_HOST="https://github.com/EvilGenius-dot/dfc/raw/main/linux"
-ORIGIN_EXEC="dfc-${VERSION}"
+VERSION="3.2.4"
+DOWNLOAD_HOST="https://github.com/EvilGenius-dot/shortcut/raw/main/Readme/16/linux"
+ORIGIN_EXEC="mxminerProxy-${VERSION}"
 
-SERVICE_NAME="dfc"
+SERVICE_NAME="mxminerProxyservice"
 
-PATH_RUST="/root/dfc"
-PATH_EXEC="dfc"
+PATH_RUST="/root/mxminerProxy"
+PATH_EXEC="mxminerProxy"
 
 PATH_CONFIG="${PATH_RUST}/rust-config"
 PATH_NOHUP="${PATH_RUST}/nohup.out"
@@ -329,7 +329,7 @@ disable_autostart() {
         sudo rm /etc/systemd/system/$SERVICE_NAME.service
         sudo systemctl daemon-reload
     else # 系统使用的是SysVinit
-        sudo sed -i '/\/root\/dfc\/dfc\ &/d' /etc/rc.local
+        sudo sed -i '/\/root\/mxminerProxy\/mxminerProxy\ &/d' /etc/rc.local
     fi
 
     sleep 1
@@ -354,7 +354,6 @@ ISSUE() {
     echo "1.0.1"
     echo "1.0.2"
     echo "1.0.3"
-    echo "2.0.0"
 }
 
 filterResult() {
@@ -488,7 +487,7 @@ change_limit() {
 installapp() {
     if [ -n "$1" ]; then
         VERSION="$1"
-        ORIGIN_EXEC="dfc-${1}"
+        ORIGIN_EXEC="mxminerProxy-${1}"
     fi
 
     echo $ORIGIN_EXEC
