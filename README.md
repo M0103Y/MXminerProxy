@@ -39,9 +39,9 @@
 
 # 加入聊天组
 
-Telegram：<a href="https://t.me/rustkt">https://t.me/rustkt</a>
+Telegram：<a href="https://t.me/MXminerProxy">https://t.me/MXminerProxy</a>
 
-Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/+Zrz9d5gUR7YzOTVl</a>
+Telegram：<a href="https://t.me/MXminerProxy">https://t.me/MXminerProxy</a>
 
 <!-- Discord：<a href="sadfasfdasfsa">sadfasfdasfsa</a> -->
 
