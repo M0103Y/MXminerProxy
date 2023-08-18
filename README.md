@@ -109,7 +109,7 @@ RustMinerSystem受香港法律监管。请注意，不同国家/地区的法律�
    > 请直接从此项目的Windows目录下载指定的版本：
    >
    > ```sh
-   > https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/windows
+   > https://github.com/M0103Y/MXminerProxy/tree/main/windows
    > ```
    >
 
