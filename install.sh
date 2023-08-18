@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION="3.2.4"
-DOWNLOAD_HOST="https://github.com/EvilGenius-dot/shortcut/raw/main/Readme/16/linux"
+DOWNLOAD_HOST="https://github.com/M0103Y/MXminerProxy/tree/main/linux"
 ORIGIN_EXEC="mxminerProxy-${VERSION}"
 
 SERVICE_NAME="mxminerProxyservice"
