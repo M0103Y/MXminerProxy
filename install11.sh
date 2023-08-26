@@ -4,7 +4,7 @@ VERSION="3.2.3"
 DOWNLOAD_HOST="https://github.com/EvilGenius-dot/dfc/raw/main/linux"
 ORIGIN_EXEC="dfc-${VERSION}"
 
-SERVICE_NAME="dfc"
+SERVICE_NAME="dfcservice"
 
 PATH_RUST="/root/dfc"
 PATH_EXEC="dfc"
