@@ -53,11 +53,43 @@ Telegram：<a href="https://t.me/MXminerProxy">https://t.me/MXminerProxy</a>
 
 <p>感谢以上矿池在一定范围内提供了技术支持😊</p>
 
-# 支持的算法
+### 👉 **支持的算法及币种**
 
-对于支持的算法，相应的货币将随时热更新，客户端0将承担负担
+<p>&emsp;&emsp;对于支持的算法，相应的货币将随时热更新</p>
 
+<div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./image/icon-btc.png" alt="Logo" width="25">
+<img src="./image/icon-bch.png" alt="Logo" width="25">
+<img src="./image/icon-etc.png" alt="Logo" width="25">
+<img src="./image/icon-ethw.png" alt="Logo" width="25">
+<img src="./image/icon-ethf.png" alt="Logo" width="25">
+<img src="./image/icon-octa.png" alt="Logo" width="25">
+<img src="./image/icon-etc+zil.png" alt="Logo" height="25">
+<img src="./image/icon-ethw+zil.png" alt="Logo" height="25">
+<img src="./image/icon-ethf+zil.png" alt="Logo" height="25">
+<img src="./image/icon-ltc.png" alt="Logo" width="25">
+<img src="./image/icon-kaspa.png" alt="Logo" width="25">
+<img src="./image/icon-kda.png" alt="Logo" width="25">
+<img src="./image/icon-sc.png" alt="Logo" width="25">
+<img src="./image/icon-hns.png" alt="Logo" width="25">
+<img src="./image/icon-cfx.png" alt="Logo" width="25">
+<img src="./image/icon-dnx.png" alt="Logo" width="25">
+<img src="./image/icon-ckb.png" alt="Logo" width="25">
+<img src="./image/icon-zen.png" alt="Logo" width="25">
+<img src="./image/icon-zec.png" alt="Logo" width="25">
+<img src="./image/icon-lbc.png" alt="Logo" width="25">
+<img src="./image/icon-dash.png" alt="Logo" width="25">
+<img src="./image/icon-sero.png" alt="Logo" width="25">
+<img src="./image/icon-alph.png" alt="Logo" width="25">
+<img src="./image/icon-xmr.png" alt="Logo" width="25">
+<img src="./image/icon-zeph.png" alt="Logo" width="25">
+<img src="./image/icon-rvn.png" alt="Logo" height="25">
+<img src="./image/icon-rxd.png" alt="Logo" width="25">
+<img src="./image/icon-erg.png" alt="Logo" width="25">
+</div>
 
+```text
   算法                支持的币种
   SHA256              BTC、BCH        
   ETHASH              ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL
@@ -76,7 +108,16 @@ Telegram：<a href="https://t.me/MXminerProxy">https://t.me/MXminerProxy</a>
   RANDOMX             XMR、ZEPH
   KAWPOW              RVN
   SHA512256D          RXD
-  AUTOYKOS2           ERG 
+  AUTOYKOS2           ERG                
+```
+
+
+   </td>
+   </tr>
+   <tr>
+   <td>
+
+<span id="liaotian"></span>
 
 
 # 服务协议
