@@ -58,8 +58,7 @@ Telegram：<a href="https://t.me/MXminerProxy">https://t.me/MXminerProxy</a>
 对于支持的算法，相应的货币将随时热更新，客户端0将承担负担
 
 
-| arithmetic      | Support     | Relevant currency |
-| --------------- | ------------| ------------------|
+  算法                支持的币种
   SHA256              BTC、BCH        
   ETHASH              ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL
   SCRYPT              LTC
